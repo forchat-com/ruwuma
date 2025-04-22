@@ -191,6 +191,7 @@ pub mod typing;
 pub mod video;
 #[cfg(feature = "unstable-msc3245")]
 pub mod voice;
+mod ignored_all_users;
 
 pub use self::{
     content::*,

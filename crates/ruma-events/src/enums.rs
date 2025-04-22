@@ -15,6 +15,7 @@ event_enum! {
         "m.identity_server" => super::identity_server,
         "m.ignored_user_list" => super::ignored_user_list,
         "m.push_rules" => super::push_rules,
+        "m.ignored_all_users" => super::ignored_all_users,
         "m.secret_storage.default_key" => super::secret_storage::default_key,
         "m.secret_storage.key.*" => super::secret_storage::key,
         #[cfg(feature = "unstable-msc2545")]
